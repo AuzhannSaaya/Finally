@@ -49,8 +49,8 @@ nav{
 .topnav .icon{
     display: none;
 }
-.mw-100{
-    max-width: 100%;
+.mw-150{
+    max-width: 150%;
 }
 .advantages_container{
  display: flex;
