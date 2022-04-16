@@ -82,10 +82,10 @@ footer a{
     margin-left: 10px;
 }
 footer p{
-    color: white; 
+    color: blue; 
 }
 footer nav a:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid blue;
 }
 .social img{
     margin-left: 10px;
