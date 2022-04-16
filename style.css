@@ -104,11 +104,11 @@ footer nav a:hover{
     width: 50rem;
 }
 .blog-container a:hover{
-    border-color: #ff4d4d;
-    color: #ff4d4d;
+    border-color: #0000FF;
+    color: #0000FF;
 }
 .blog-cover{
-    background: url(.../img/4.jpg);
+    background: url(../img/4.jpg);
     background-size: cover;
       border-radius: 5px 5px 0 0;
     height: 30rem;
