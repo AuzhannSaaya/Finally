@@ -49,8 +49,8 @@ nav{
 .topnav .icon{
     display: none;
 }
-.mw-110{
-    max-width: 110%;
+.mw-100{
+    max-width: 101%;
 }
 .advantages_container{
  display: flex;
@@ -108,7 +108,7 @@ footer nav a:hover{
     color: #ff4d4d;
 }
 .blog-cover{
-    background: url(../img/4.jpg);
+    background: url(.../img/4.jpg);
     background-size: cover;
       border-radius: 5px 5px 0 0;
     height: 30rem;
