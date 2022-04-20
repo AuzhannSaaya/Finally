@@ -235,7 +235,6 @@ textarea{
 .about-container a:hover{
     border-color: #0000FF;
     color: #0000FF;
-    text-align: center;
 }
 .about-body{
     margin: 0 auto;
@@ -282,6 +281,9 @@ textarea{
     .blog-container{
         width: 28rem;
     }
+    .about-container{
+        width: 28rem;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -294,4 +296,7 @@ textarea{
     .blog-container{
         width: 20rem;
 }
+    .about-container{
+        width: 20rem;
+    }
 }
