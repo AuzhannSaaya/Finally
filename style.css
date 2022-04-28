@@ -246,6 +246,8 @@ textarea{
 }
 .about-text p{
     color: #4d4d4d;
+    width: 55%;
+    border: 600px;
 }
 
 
