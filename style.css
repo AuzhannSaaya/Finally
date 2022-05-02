@@ -234,12 +234,65 @@ textarea{
     width: 80%;
 }
 .about-title h1 a{
-    color: #333;
+    color: #000;
     font-weight: 100;
 }
 .about-text p{
     color: #000;
 }
+.about-tags ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+.about-tags li + li{
+    margin-left: .5rem;
+}
+.about-tags a{
+    border: 1px solid #999999;
+    border-radius: 3px;
+    color: #999999;
+    font-size: .75rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5rem;
+}    
+.about-footer{
+    border-top: 1px solid #e6e6e6;
+    margin: 0 auto;
+    padding-bottom: .125rem;
+    width: 80%;
+}
+.about-footer ul{
+    list-style: none;
+    display: flex;
+    flex: row wrap;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+.about-footer li{
+    color: #999999;
+    font-size: .75rem;
+    height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+}
+.published-date{
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 0 .5rem;
+}
+}
+
 
 
 @media screen and (max-width: 768px){
@@ -271,12 +324,6 @@ textarea{
     .advantages_item{
         width: 45%;
     }
-    .blog-container{
-        width: 28rem;
-    }
-    .about-container{
-        width: 28rem;
-    }
 }
 
 @media screen and (max-width: 420px){
@@ -286,10 +333,4 @@ textarea{
         .advantages_item{
            width: 100%; 
         }
-    .blog-container{
-        width: 20rem;
-}
-    .about-container{
-        width: 20rem;
-    }
 }
