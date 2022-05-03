@@ -13,7 +13,7 @@ li{
 }
 
 body{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .logo{
     background: #000;
@@ -54,6 +54,7 @@ nav{
 }
 .advantages_container{
  display: flex;
+ justify-content: center;   
 }
 .advantages{
     padding-top: 40px;
@@ -61,7 +62,7 @@ nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
 }
 .advantages_item{
@@ -81,10 +82,10 @@ footer a{
     margin-left: 10px;
 }
 footer p{
-    color: blue; 
+    color: white; 
 }
 footer nav a:hover{
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid white;
 }
 .social img{
     margin-left: 10px;
@@ -106,16 +107,23 @@ footer nav a:hover{
     border-color: #0000FF;
     color: #0000FF;
 }
+.blog-cover{
+    background: url(../img3/4.jpg);
+    background-size: cover;
+      border-radius: 5px 5px 0 0;
+    height: 30rem;
+    box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
+}
 .blog-body{
     margin: 0 auto;
     width: 80%;
 }
 .blog-title h1 a{
-    color: #000;
+    color: #333;
     font-weight: 100;
 }
 .blog-text p{
-    color: #000;
+    color: #4d4d4d;
 }
 .blog-tags ul{
     display: flex;
@@ -155,80 +163,6 @@ footer nav a:hover{
     padding-left: 0;
 }
 .blog-footer li{
-    color: #999999;
-    font-size: .75rem;
-    height: 1.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    white-space: nowrap;
-}
-.published-date{
-    border: 1px solid #999999;
-    border-radius: 3px;
-    padding: 0 .5rem;
-}
-.about-container{
-    background: #fafafa;
-    border-radius: 5px;
-    box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
-    font-weight: 100;
-    margin: 48px auto;
-    width: 50rem;
-}
-.about-container a:hover{
-    border-color: #0000FF;
-    color: #0000FF;
-}
-.about-body{
-    margin: 0 auto;
-    width: 80%;
-}
-.about-title h1 a{
-    color: #000;
-    font-weight: 100;
-}
-.about-text p{
-    color: #000;
-}
-.about-tags ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding-left: 0;
-}
-.about-tags li + li{
-    margin-left: .5rem;
-}
-.about-tags a{
-    border: 1px solid #999999;
-    border-radius: 3px;
-    color: #999999;
-    font-size: .75rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
-    letter-spacing: 1px;
-    padding: 0.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
-    width: 5rem;
-}    
-.about-footer{
-    border-top: 1px solid #e6e6e6;
-    margin: 0 auto;
-    padding-bottom: .125rem;
-    width: 80%;
-}
-.about-footer ul{
-    list-style: none;
-    display: flex;
-    flex: row wrap;
-    justify-content: flex-end;
-    padding-left: 0;
-}
-.about-footer li{
     color: #999999;
     font-size: .75rem;
     height: 1.5rem;
@@ -291,8 +225,29 @@ textarea{
     background-color: #fbfbfb;
     transition: .3s ease;
 }
-
-
+.about-container{
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 50rem;
+}
+.about-container a:hover{
+    border-color: #0000FF;
+    color: #0000FF;
+}
+.about-body{
+    margin: 0 auto;
+    width: 80%;
+}
+.about-title h1 a{
+    color: #333;
+    font-weight: 100;
+}
+.about-text p{
+    color: #4d4d4d;
+}
 
 
 @media screen and (max-width: 768px){
@@ -324,13 +279,4 @@ textarea{
     .advantages_item{
         width: 45%;
     }
-}
-
-@media screen and (max-width: 420px){
-    .advantages{
-        flex-direction: column;
-    }
-        .advantages_item{
-           width: 100%; 
-        }
-}
+} 
