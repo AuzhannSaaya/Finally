@@ -292,7 +292,7 @@ textarea{
     width: 28rem;
     }
 }
-@media screen & (max-width: 420px){
+@media screen and (max-width: 420px){
     .advantages{
         flex-direction: column;
     }
