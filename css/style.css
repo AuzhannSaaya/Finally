@@ -62,7 +62,7 @@ nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
 }
 .advantages_item{
