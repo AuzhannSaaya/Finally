@@ -279,12 +279,23 @@ textarea{
     .advantages_item{
         width: 45%;
     }
+    .blog-container{ 
+     width: 28rem; 
+    } 
+    .about-container{
+     width: 28rem; 
+    }
 }
 @media screen & (max-width: 420px){
     .advantages{
-        flex-direction: column;
+       flex-direction: column;
     }
-        .advantages_item{
-           width: 100%; 
-        }
+    .advantages_item{
+       width: 100%; 
+    }
+     .blog-container{ 
+     width: 20rem; 
+    } .about-container{ 
+     width: 20rem; 
+    }
 }
