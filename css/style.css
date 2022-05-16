@@ -113,13 +113,6 @@ footer nav a:hover{
     border-color: #0000FF;
     color: #0000FF;
 }
-.blog-cover{
-    background: url(../img3/4.jpg);
-    background-size: cover;
-      border-radius: 5px 5px 0 0;
-    height: 30rem;
-    box-shadow: inset rgba(0,0,0,0.2) 0 64px 64px 16px;
-}
 .blog-body{
     margin: 0 auto;
     width: 80%;
