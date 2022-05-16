@@ -250,7 +250,7 @@ textarea{
     .topnav a.icon{
         float: right;
         margin-top: -17px;
-        display: block;
+        display: flex;
         color: #000;
     }
     nav{
@@ -266,7 +266,7 @@ textarea{
     }
     .topnav.responsive a {
         float: none;
-        display: block;
+        display: flex;
         text-align: left;
     }
     .advantages_item{
