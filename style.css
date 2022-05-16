@@ -68,6 +68,15 @@ nav{
 .advantages_item{
     width: 30%;
 }
+.advantages_item a{
+    color: #0000FF;
+    text-align: left;
+    padding: 14px 16px;
+    font-size: 15px;
+} 
+.advantages_item a:hover{
+     border-bottom: 2px solid  #0000FF;
+}
 footer{
     width: 100%;
     height: auto;
